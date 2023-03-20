@@ -52,6 +52,7 @@ const CommonScript = () => {
       <script async src={BLOG.ANALYTICS_ACKEE_TRACKER}
               data-ackee-server={BLOG.ANALYTICS_ACKEE_DATA_SERVER}
               data-ackee-domain-id={BLOG.ANALYTICS_ACKEE_DOMAIN_ID}
+              data-ackee-opts='{ "detailed": true }'
       />
     )}
 
